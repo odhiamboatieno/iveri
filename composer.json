@@ -1,5 +1,5 @@
 {
-    "name": "neolikotsi/omnipay-iveri",
+    "name": "odhiamboatieno/iveri",
     "description": "iVeri Lite driver for the Omnipay PHP payment processing library",
     "type": "library",
     "keywords": [
