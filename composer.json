@@ -1,0 +1,34 @@
+{
+    "name": "neolikotsi/omnipay-iveri",
+    "description": "iVeri Lite driver for the Omnipay PHP payment processing library",
+    "type": "library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "iveri lite",
+        "payment"
+    ],
+    "require": {
+        "omnipay/common": "^3.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "league/omnipay": "^3.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3.1",
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Neo Likotsi",
+            "email": "nlikotsi5@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": { "Omnipay\\IVeri\\" : "src/" }
+    }
+}
